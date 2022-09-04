@@ -1,0 +1,104 @@
+.grid {
+margin-top: 5%;
+margin-left: 5%;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fff7e6;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.grid_card_button_1{
+  margin-top: 20%;
+}
+
+.grid_card_button{
+  height: 75px;
+  width: 200px;
+  border-radius: 15px;
+  color: white;
+  background-color: #4E9F3D;
+  font-size: 20px;
+  border: none;
+}
+
+.grid_card_button:hover{
+  cursor: pointer;
+  color: black;
+  background-color: #D8E9A8;
+}
+
+.card_row1{
+  float: left;
+  width: 25%;
+  padding: 0 3rem;
+
+}
+
+.grid_card_img{
+  width: 60%;
+  height: 50%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .card_row1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #fff7e6;
+  background-color: rgba(0,0,0,0.6); 
+}
+
+.modal-content {
+  background-color: #fff7e6;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 81%;
+  border-radius: 15px;
+}
+
+.modal-content p{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.close, .close1, .close2 {
+  color: grey;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close1:hover, .close2:hover,
+.close:focus, .close1:focus, .close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

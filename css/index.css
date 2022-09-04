@@ -1,0 +1,50 @@
+.index_header_p{
+  padding: 1rem;
+}
+
+.index_main{
+  float: left;
+}
+
+.index_footer{
+  float: left;
+}
+
+.index_header{
+  height: 350px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 15px;
+  background-color: #fff7e6;
+}
+
+.index_img1{
+  float: left;
+  padding: 20px;
+  padding-top: 30px;
+  height: 80%;
+  width: 15%;
+  border-radius: 10%;
+}
+
+.index_header_p{
+  width: 80%;
+  padding: 20px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.index_main{
+  height: 150px;
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  border-radius: 15px;
+  background-color: #fff7e6;
+}
+
+.index_main_p{
+  width: 80%;
+  padding-left: 20px;
+}

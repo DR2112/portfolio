@@ -1,0 +1,31 @@
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #ffeecc;
+}
+
+.table1, .table2, .table3{
+  background-color: #fff7e6;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+th{
+  padding-bottom: 10px;
+  font-size: 25px;
+  width: 50%;
+}
+
+td{
+  font-size: 21px;
+  padding-left: 10px;
+}
+
+.border{
+  border-left: 1px solid black;
+}
